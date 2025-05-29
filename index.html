@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio Website - Aditya Kumar Pandey</title>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
+    <!-- typed.js  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Add this inside <head> of your HTML file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- 🌐 Add Vanilla Tilt JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.2/dist/vanilla-tilt.min.js"></script>
+
+
+
+</head>
+
+<body>
+
+    <!-- scroll to top button -->
+    <button class="scrollbtn" id="btn" type="button" onclick="scrolltoTop()"><i class="fa fa-arrow-up"></i></button>
+
+    <!-- Navbar code start here -->
+    <nav class="navbar" id="navbar">
+        <div class="logo">
+            <a href="#home">Portfolio</a>
+        </div>
+
+        <ul class="menu" id="menu">
+            <li><a href="#home" onclick="menu()">Home</a></li>
+            <li><a href="#profile" onclick="menu()">Profile</a></li>
+            <li><a href="#about" onclick="menu()">About</a></li>
+            <li><a href="#services" onclick="menu()">Services</a></li>
+            <li><a href="#portfolio" onclick="menu()">Portfolio</a></li>
+
+            <li><a href="#contact" onclick="menu()">Contact</a></li>
+            <li><a href="resume.pdf" target="_blank" class="resume-btn">Resume</a></li>
+        </ul>
+
+        <a href="https://bento.me/adityapandey1o1" class="website-icon" target="_blank" title="My Website">
+            <i class="fas fa-globe"></i>
+        </a>
+
+
+
+
+
+
+        <div class="menu-btn" onclick="menu()">
+            <i class="fa fa-bars"></i>
+        </div>
+    </nav>
+
+
+    <!-- home section start here -->
+    <div class="home" id="home" style="background: url('Images/Me.jpg') no-repeat center center/cover; height: 100vh;">
+        <div class="home-content"
+            style="background: rgba(0, 0, 0, 0.6); height: 100%; display: flex; align-items: center; justify-content: center; color: white;">
+            <div style="text-align: center;">
+                <h1>I am Aditya Pandey</h1>
+                <!--<h1 class="glow-text">I am Aditya Pandey</h1>-->
+                <p><span class="text"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 🌌 Parallax Section -->
+    <section class="parallax-section">
+        <div class="parallax-content">
+            <h2>Explore My World</h2>
+            <p>Dive into my experience, skills, and journey through the lens of data and AI.</p>
+        </div>
+    </section>
+
+
+    <!-- ✅ About + Skills Section Start -->
+    <section class="about" id="profile">
+        <div class="container">
+            <div class="about-content">
+
+                <!-- 👤 Personal Info -->
+                <div class="personal">
+                    <div class="photo">
+                        <img src="Images/DSC_1968.jpg" alt="Aditya">
+                    </div>
+                    <div class="name">
+                        <p><span>Name:</span> Aditya Kumar Pandey</p>
+                        <p><span>Profile:</span> Data Analyst</p>
+                        <p><span>Email:</span> aditya.240201001@iiitbh.ac.in</p>
+                        <p><span>Phone:</span> 7858826847</p>
+                    </div>
+                </div>
+
+                <!-- ⭐ Skills Section with Card Layout -->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <div class="skills-section-wrapper">
+                        <div class="skills-grid-new">
+
+
+
+                            <!-- Skill Card 1: Data Analytics -->
+                            <div class="skill-card">
+                                <h3>Data Analytics</h3>
+                                <ul>
+                                    <li>MS Power BI: ⭐⭐⭐⭐☆</li>
+                                    <li>MS Excel: ⭐⭐⭐⭐☆</li>
+                                    <li>Macros: ⭐⭐⭐☆</li>
+                                    <li>Data Warehousing: ⭐⭐⭐⭐☆</li>
+                                    <li>MIS Reporting: ⭐⭐⭐⭐☆</li>
+                                    <li>ETL: ⭐⭐⭐⭐☆</li>
+                                    <li>Data Modelling: ⭐⭐⭐⭐☆</li>
+                                    <li>Data Cleaning: ⭐⭐⭐⭐☆</li>
+                                    <li>Data Visualization: ⭐⭐⭐⭐☆</li>
+                                    <li>DAX: ⭐⭐⭐⭐☆</li>
+                                </ul>
+                            </div>
+
+                            <!-- Skill Card 2: Libraries / Frameworks -->
+                            <div class="skill-card">
+                                <h3>Libraries / Frameworks</h3>
+                                <ul>
+                                    <li>HTML: ⭐⭐⭐⭐☆</li>
+                                    <li>CSS: ⭐⭐⭐⭐☆</li>
+                                    <li>Numpy: ⭐⭐⭐⭐☆</li>
+                                    <li>Matplotlib: ⭐⭐⭐⭐☆</li>
+                                    <li>Seaborn: ⭐⭐⭐⭐☆</li>
+                                    <li>scikit-learn: ⭐⭐⭐⭐☆</li>
+                                    <li>TensorFlow: ⭐⭐⭐⭐☆</li>
+                                </ul>
+                            </div>
+
+                            <!-- Skill Card 3: Programming Languages -->
+                            <div class="skill-card">
+                                <h3>Programming Languages</h3>
+                                <ul>
+                                    <li>Python: ⭐⭐⭐⭐☆</li>
+                                    <li>R: ⭐⭐⭐⭐☆</li>
+                                </ul>
+                            </div>
+
+                            <!-- Skill Card 4: Tools / Technologies -->
+                            <div class="skill-card">
+                                <h3>Tools / Technologies</h3>
+                                <ul>
+
+                                    <li>Figma: ⭐⭐⭐⭐☆</li>
+                                    <li>LaTeX: ⭐⭐⭐⭐☆</li>
+                                    <li>NLP: ⭐⭐⭐⭐☆</li>
+                                    <li>Generative AI: ⭐⭐⭐☆</li>
+                                    <li>Jira: ⭐⭐⭐☆</li>
+                                    <li>LLMs: ⭐⭐⭐☆</li>
+                                </ul>
+                            </div>
+
+
+
+                            <!-- Skill Card 5: Cloud / DBMS -->
+                            <div class="skill-card">
+                                <h3>Cloud / DBMS</h3>
+                                <ul>
+                                    <li>Microsoft Azure: ⭐⭐⭐⭐☆</li>
+                                    <li>MySQL: ⭐⭐⭐⭐☆</li>
+                                </ul>
+                            </div>
+
+
+
+                            <!-- Skill Card 6: Soft Skills -->
+                            <div class="skill-card">
+                                <h3>Soft Skills</h3>
+                                <ul>
+                                    <li>Communication: ⭐⭐⭐⭐☆</li>
+                                    <li>Team Collaboration: ⭐⭐⭐⭐☆</li>
+                                    <li>Problem Solving: ⭐⭐⭐⭐☆</li>
+                                    <li>Time Management: ⭐⭐⭐⭐☆</li>
+                                    <li>Adaptability: ⭐⭐⭐⭐☆</li>
+                                    <li>Critical Thinking: ⭐⭐⭐⭐☆</li>
+                                    <li>Creativity: ⭐⭐⭐⭐☆</li>
+                                    <li>Business Accumen: ⭐⭐⭐⭐☆</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                <!-- ✅ Skills Section End -->
+
+            </div>
+        </div>
+    </section>
+    <!-- ✅ About + Skills Section End -->
+
+
+
+
+    <!-- Skills Section -->
+
+
+    <!-- Skills Section Start -->
+    <!--<section class="skills section" id="skills">
+                    <div class="container">
+                        <h2 class="section-title">Skills</h2>
+
+                        <div class="skills-grid">
+
+                             Data Analytics -->
+    <!--<div class="skill-category">
+                                <h3>Data Analytics</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-label">
+                                        <span>MS Power BI</span>
+                                        <span class="percent">95%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="progress" style="width: 95%;"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-bar">
+                                    <div class="skill-label">
+                                        <span>MS Excel</span>
+                                        <span class="percent">80%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="progress" style="width: 95%;"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-bar">
+                                    <div class="skill-label">
+                                        <span>Macros</span>
+                                        <span class="percent">60%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="progress" style="width: 95%;"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-bar">
+                                    <div class="skill-label">
+                                        <span>Data Warehousing</span>
+                                        <span class="percent">90%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="progress" style="width: 95%;"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-bar">
+                                    <div class="skill-label">
+                                        <span>MIS Reporting</span>
+                                        <span class="percent">75%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="progress" style="width: 95%;"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-bar">
+                                    <div class="skill-label">
+                                        <span>ETL</span>
+                                        <span class="percent">85%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="progress" style="width: 95%;"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-bar">
+                                    <div class="skill-label">
+                                        <span>Data Modelling</span>
+                                        <span class="percent">85%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="progress" style="width: 95%;"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-bar">
+                                    <div class="skill-label">
+                                        <span>Data Cleaning</span>
+                                        <span class="percent">85%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="progress" style="width: 90%;"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-bar">
+                                    <div class="skill-label">
+                                        <span>Data Visualization</span>
+                                        <span class="percent">85%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="progress" style="width: 85%;"></div>
+                                    </div>
+                                </div>
+
+                                 <div class="skill-bar">
+                                    <div class="skill-label">
+                                        <span>DAX</span>
+                                        <span class="percent">85%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="progress" style="width: 85%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                             Programming Languages -->
+    <!--<div class="skill-category">
+                                <h3>Programming Languages</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-label">
+                                        <span>Python</span>
+                                        <span class="percent">95%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="progress" style="width: 95%;"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-bar">
+                                    <div class="skill-label">
+                                        <span>R</span>
+                                        <span class="percent">85%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="progress" style="width: 85%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            Libraries / Frameworks -->
+    <!--<div class="skill-category">
+                                <h3>Libraries / Frameworks</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-label">
+                                        <span>HTML</span>
+                                        <span class="percent">90%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="progress" style="width: 90%;"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-bar">
+                                    <div class="skill-label">
+                                        <span>CSS</span>
+                                        <span class="percent">85%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="progress" style="width: 85%;"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-bar">
+                                    <div class="skill-label">
+                                        <span>Numpy</span>
+                                        <span class="percent">90%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="progress" style="width: 90%;"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-bar">
+                                    <div class="skill-label">
+                                        <span>Matplotlib</span>
+                                        <span class="percent">80%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="progress" style="width: 80%;"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-bar">
+                                    <div class="skill-label">
+                                        <span>Seaborn</span>
+                                        <span class="percent">75%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="progress" style="width: 75%;"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-bar">
+                                    <div class="skill-label">
+                                        <span>scikit-learn</span>
+                                        <span class="percent">85%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="progress" style="width: 85%;"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-bar">
+                                    <div class="skill-label">
+                                        <span>TensorFlow</span>
+                                        <span class="percent">80%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="progress" style="width: 80%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            Cloud / DBMS -->
+    <!--<div class="skill-category">
+                                <h3>Cloud / DBMS</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-label">
+                                        <span>Microsoft Azure</span>
+                                        <span class="percent">85%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="progress" style="width: 85%;"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-bar">
+                                    <div class="skill-label">
+                                        <span>MySQL</span>
+                                        <span class="percent">80%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="progress" style="width: 80%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            Tools / Technologies -->
+    <!--<div class="skill-category">
+                                <h3>Tools / Technologies</h3>
+
+                                <div class="skill-bar">
+                                    <div class="skill-label">
+                                        <span>Power BI</span>
+                                        <span class="percent">90%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="progress" style="width: 90%;"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-bar">
+                                    <div class="skill-label">
+                                        <span>Figma</span>
+                                        <span class="percent">80%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="progress" style="width: 80%;"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-bar">
+                                    <div class="skill-label">
+                                        <span>LaTeX</span>
+                                        <span class="percent">85%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="progress" style="width: 85%;"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-bar">
+                                    <div class="skill-label">
+                                        <span>NLP</span>
+                                        <span class="percent">90%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="progress" style="width: 90%;"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-bar">
+                                    <div class="skill-label">
+                                        <span>Generative AI</span>
+                                        <span class="percent">75%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="progress" style="width: 75%;"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-bar">
+                                    <div class="skill-label">
+                                        <span>Jira</span>
+                                        <span class="percent">70%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="progress" style="width: 70%;"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-bar">
+                                    <div class="skill-label">
+                                        <span>Large Language Models (LLMs)</span>
+                                        <span class="percent">70%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="progress" style="width: 70%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                Soft Skills -->
+    <!--<div class="skill-category soft-skills">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Communication</li>
+                        <li>Team Collaboration</li>
+                        <li>Problem Solving</li>
+                        <li>Time Management</li>
+                        <li>Adaptability</li>
+                        <li>Critical Thinking</li>
+                        <li>Creativity</li>
+                        <li>Business Accumen</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section End -->
+
+
+    <!-- 🌄 About Me Parallax Section -->
+    <section class="parallax-about-section" id="about">
+
+        <div class="parallax-content">
+            <h2>About Me</h2>
+            <p>
+                Hi, I’m Aditya Kumar Pandey, an aspiring AI/ML Engineer currently pursuing my M.Tech in Artificial
+                Intelligence and Data Science at the Indian Institute of Information Technology, Bhagalpur (IIIT
+                Bhagalpur). I hold an MCA from Banaras Hindu University (BHU), Varanasi, where I built a strong
+                foundation in computer science and machine learning.
+            </p>
+            <p>
+                I recently served as a Winter Research Intern (WRIS 2024) at IIT (ISM) Dhanbad, where I developed a
+                hybrid AI model for plant disease detection using advanced deep learning techniques such as Few-Shot
+                Learning and Attention Mechanisms, achieving a 92% accuracy rate.
+
+                Prior to that, I worked with Aavaaz Inc, a U.S.-based health-tech startup, as an AI/ML Engineer, where I
+                optimized Automatic Speech Recognition (ASR) models, implemented NLP tasks like NER, and deployed secure
+                medical solutions using Microsoft Azure under strict HIPAA compliance.
+            </p>
+            <p>
+                I've built impactful projects in areas like Human Activity Recognition, Plant Disease Classification,
+                and Sales Trend Analysis using deep learning, CNNs with self-attention, and interactive dashboards in
+                Power BI. </p>
+            <p>
+                I’ve also participated in several workshops hosted by NIT Warangal, IIT BHU, and IIIT Bhagalpur, and I'm
+                a qualified UGC NET holder in Computer Science (Dec 2024). I enjoy translating complex data into
+                actionable insights and am open to roles in AI/ML, Data Analysis, and Business Intelligence domains.
+            </p>
+            <p>
+                I'm actively exploring Data Analyst and Business Analyst roles to apply my technical
+                expertise toward
+                solving real-world problems through data-driven insights.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- About Me Text
+    <div class="aboutme">
+        <h5>About Me</h5>
+        <p>Hi, I’m Aditya Kumar Pandey, currently pursuing my MTech in Artificial Intelligence and Data
+            Science at the Indian Institute of Information Technology, Bhagalpur (IIIT Bhagalpur). I hold an
+            MCA from Banaras Hindu University (BHU), Varanasi, with a strong academic record.</p>
+        <p>I’m currently a Winter Research Intern (WRIS 2024) at the Indian Institute of Technology (ISM)
+            Dhanbad, where I’m working on cutting-edge projects involving Vision Transformers (ViT), Custom
+            CNNs with Self-Attention, and Few-Shot Learning techniques like Siamese Networks with Quadruplet
+            Loss for image-based plant disease detection.</p>
+        <p>Previously, I interned at Aavaaz, a US-based startup, where I led the development of a secure,
+            HIPAA-compliant medical web app using advanced ASR and NLP models on Microsoft Azure.</p>
+        <P>My skill set includes Python, SQL, Power BI, Advanced MS Excel, and tools like scikit-learn,
+            PyTorch, NumPy, and Matplotlib. I’ve worked on several AI/ML projects, including Human Activity
+            Recognition, Anime Image Generation (DCGAN), Emotion Classification, and Sentiment Analysis on
+            Amazon Reviews.
+
+            I'm actively exploring Data Analyst and Business Analyst roles to apply my technical expertise
+            toward solving real-world problems through data-driven insights.</P>
+    </div>
+
+    </div>
+    </div>
+    </section>  -->
+
+
+
+
+
+
+
+
+    <!-- services section start here -->
+    <section class="services" id="services">
+        <div class="container">
+            <h3 class="title">Services</h3>
+            <div class="line"></div>
+            <div class="services-content">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-code"></i></div>
+                        <div class="card-title">AI-Powered Business Solutions</div>
+                        <p>Designing intelligent automation systems and AI models that optimize operations,
+                            reduce
+                            manual workload, and drive strategic decision-making.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-mobile"></i></div>
+                        <div class="card-title">Data Visualization with Power BI</div>
+                        <p>Creating interactive dashboards and visual analytics using Power BI to gain
+                            insights, track
+                            KPIs, and support data-driven decisions.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-paint-brush"></i></div>
+                        <div class="card-title">Machine Learning Model Development</div>
+                        <p>Building and deploying ML models using Python, scikit-learn, and TensorFlow to
+                            solve
+                            classification, regression, and clustering problems.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-laptop"></i></div>
+                        <div class="card-title">Predictive Analytics & Forecasting</div>
+                        <p>Using historical data and machine learning techniques to forecast trends, sales,
+                            and other
+                            critical metrics for proactive planning.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-line-chart"></i></div>
+                        <div class="card-title">Natural Language Processing</div>
+                        <p>Developing NLP solutions like sentiment analysis, named entity recognition, and
+                            chatbot
+                            integration to understand and generate human language.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-wordpress"></i></div>
+                        <div class="card-title">Deep Learning Solutions</div>
+                        <p>Designing and developing deep neural networks (CNNs, RNNs, Transformers) for
+                            complex
+                            data-driven tasks such as image classification, object detection, and speech
+                            recognition.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <!-- ✅ Swiper CSS for Testimonials Carousel -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="style.css">
+        <script defer src="main.js"></script>
+    </head>
+
+    <body>
+
+        <!-- Add this right after the <body> tag or wherever appropriate -->
+        <section id="portfolio">
+            <header>
+                <h1>Welcome to My Portfolio</h1>
+            </header>
+
+            <nav class="section-nav">
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#internships">Internship Experience</a></li>
+                    <!-- ✅ New Link for Certifications -->
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#workshops">Workshops Attended</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+
+
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+
+
+
+
+
+        <!-- <section id="about">
+            <h2>About Me</h2>
+            <p>Experienced AI/ML Engineer with a strong background in Machine Learning, Deep Learning, Natural Language
+                Processing (NLP) and LLMs .
+                Proficient in Python, SQL, and data visualization tools like Power BI and MS Excel . Skilled in
+                developing AI models with a focus on NLP, deep learning,
+                data preprocessing, and deployment on Microsoft Azure . Proven ability to drive strategic
+                decision-making and enhance operational efficiency.</p>
+        </section> -->
+
+        <!-- 🎓 Education Section with Parallax Effect -->
+        <section id="education" class="parallax-education-section">
+            <div class="parallax-education-content">
+                <h2 class="title">Education</h2>
+                <div class="line"></div>
+                <div class="education-cards">
+                    <div class="edu-card">
+                        <h3>10th Grade</h3>
+                        <p><strong>School:</strong> SKP Vidya Vihar, Bhagalpur, CBSE</p>
+                        <p><strong>Year:</strong> 2015</p>
+                        <p><strong>Percentage:</strong> 81.7%</p>
+                    </div>
+                    <div class="edu-card">
+                        <h3>12th Grade</h3>
+                        <p><strong>School:</strong> Inter Stariya School Rampurdih, BSEB</p>
+                        <p><strong>Year:</strong> 2017</p>
+                        <p><strong>Percentage:</strong> 67.8%</p>
+                    </div>
+                    <div class="edu-card">
+                        <h3>Post Graduation</h3>
+                        <p><strong>University:</strong> Banaras Hindu University</p>
+                        <p><strong>Degree:</strong> MCA</p>
+                        <p><strong>Year:</strong> 2022 - 2024</p>
+                        <p><strong>CGPA:</strong> 8.21</p>
+                    </div>
+                    <div class="edu-card">
+                        <h3>Post Graduation</h3>
+                        <p><strong>Institute:</strong> Indian Institute of Information Technology Bhagalpur</p>
+                        <p><strong>Degree:</strong> M.Tech in AI & Data Science</p>
+                        <p><strong>Year:</strong> 2024 - Present</p>
+                        <p><strong>SGPA:</strong> 7.85</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project-categories">
+                <button onclick="redirectTo('data-analytics.html')">Data Analytics Projects</button>
+                <button onclick="redirectTo('sql-projects.html')">SQL Projects</button>
+                <button onclick="redirectTo('deep-learning.html')">Deep Learning Projects</button>
+                <button onclick="redirectTo('machine-learning.html')">Machine Learning Projects</button>
+                <button onclick="redirectTo('generative-ai.html')">Generative AI Projects</button>
+
+
+
+
+            </div>
+        </section>
+
+        <section id="internships">
+            <h2>Internship Experience</h2>
+
+            <div class="projects-container">
+
+                <!-- Internship 1 -->
+                <div class="project">
+                    <h3>Indian Institute of Technology (ISM) Dhanbad, Jharkhand</h3>
+                    <p><strong>Winter Research Intern (WRIS 2024)</strong> | Dec 2024 - February 2025</p>
+                    <ul>
+                        <li>Developed and evaluated advanced models, including Vision Transformers (ViT) and
+                            Custom
+                            CNNs with Self-Attention, for image-based plant disease detection.</li>
+                        <li>Implemented Few-Shot Learning techniques, with categorical loss, to tackle
+                            limited labeled
+                            data challenges for new crop diseases.</li>
+                        <li>Conducted research on scalable, meta-learning-driven solutions for agricultural
+                            applications while ensuring confidentiality of project details and findings.
+                        </li>
+                    </ul>
+                    <a href="https://drive.google.com/file/d/1S8vK_FRwqJIWYPYNiMq7PgEcdyDS2X1L/view?usp=sharing"
+                        target="_blank" class="btn-certificate">View Certificate</a>
+                </div>
+
+                <!-- Internship 2 -->
+                <div class="project">
+                    <h3>Aavaaz Inc (Remote)</h3>
+                    <p><strong>AI/ML Engineer</strong> | April 2024 - May 2024</p>
+                    <p><em>Skills:</em> Deep Learning, NLP, Microsoft Azure, Docker, Automatic Speech
+                        Recognition</p>
+                    <ul>
+                        <li>Spearheaded the development of an intuitive web application to enhance medical
+                            consultations
+                            through advanced ASR.</li>
+                        <li>Optimized ASR models using cutting-edge NLP methodologies and ensured robust
+                            performance in
+                            noisy environments.</li>
+                        <li>Used Microsoft Azure for HIPAA-compliant secure deployments and implemented
+                            strict security
+                            protocols for sensitive medical data.</li>
+                    </ul>
+                    <a href="https://drive.google.com/file/d/1qbQV_bIUvtF7945NQ9V3DaadoKSvCCn4/view?usp=sharing"
+                        target="_blank" class="btn-certificate">View Certificate</a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <div class="certification-container">
+
+                <div class="certificate-card">
+                    <h3>Google Analytics Certification</h3>
+                    <p>Institution: Google</p>
+                    <p>May 2025</p>
+                    <a href="https://drive.google.com/file/d/1oLApN15s19OgImj7tPUKKTNp1JumCKME/view?usp=sharing"
+                        target="_blank" class="view-btn">View
+                        Certificate</a>
+                </div>
+
+                <div class="certificate-card">
+                    <h3>Data Analytics Essentials</h3>
+                    <p>Institution: Cisco</p>
+                    <p>May 2025</p>
+                    <a href="https://drive.google.com/file/d/1uJENAUmwCUsGXnoQjPN6AgG0W5dQc6dY/view?usp=sharing"
+                        target="_blank" class="view-btn">View
+                        Certificate</a>
+                </div>
+
+                <div class="certificate-card">
+                    <h3>Microsoft Power BI</h3>
+                    <p>Institution: Infosys</p>
+                    <p>May 2025</p>
+                    <a href=" https://drive.google.com/file/d/1DhX5bCjBZCHVzrVBUen2eYmu06BCoUz5/view?usp=sharing"
+                        target="_blank" class="view-btn">View
+                        Certificate</a>
+                </div>
+
+
+
+            </div>
+
+            <a href="certifications.html" class="see-more-btn" target="_blank">See More Certifications</a>
+        </section>
+
+        <!-- 🛠️ Workshops Section -->
+        <section id="workshops">
+            <h2>Workshops Attented</h2>
+            <div class="certification-container">
+
+                <div class="certificate-card">
+                    <h3>AI, ML & DL Workshop</h3>
+                    <p>Institution: NIT Warangal</p>
+                    <p>February 2024</p>
+                    <a href="https://drive.google.com/file/d/1iIAySlqPZAv8mHLXaa8jI9rjKhWBwisA/view" target="_blank"
+                        class="view-btn">View Certificate</a>
+                </div>
+
+                <div class="certificate-card">
+                    <h3>Soft Skills Training and Personality Development </h3>
+                    <p>Institution: Banaras Hindu University</p>
+                    <p>November 2023</p>
+                    <a href="https://drive.google.com/file/d/1t4aOZamR9agVeDJFIksslx5HvtoV_kJP/view" target="_blank"
+                        class="view-btn">View Certificate</a>
+                </div>
+
+                <div class="certificate-card">
+                    <h3>Short-Term Course on ML in Healthcare and Agriculture</h3>
+                    <p>Institution: IIIT Bhagalpur</p>
+                    <p>March 2024</p>
+                    <a href="https://drive.google.com/file/d/16icZ-DQLn-R5lmxXvjr9mcfLO1CBP1O6/view" target="_blank"
+                        class="view-btn">View Certificate</a>
+                </div>
+
+
+
+            </div>
+
+            <a href="workshops.html" class="see-more-btn" target="_blank">See More Workshops</a>
+        </section>
+
+
+        <!-- 🧑‍💼 Testimonials Section Start -->
+        <section class="testimonials" id="testimonials">
+            <h2 class="title">Testimonials</h2>
+            <div class="line"></div>
+
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <img src="Images/dr. sachin sir.jpeg" alt="Client">
+                            <p>"Aditya is highly dedicated and talented. His work on AI projects is
+                                exceptional."</p>
+                            <h4>Dr. Sachin Tripathi</h4>
+                            <span>Associate Professor, CSE Dept., IIT(ISM) Dhanbad</span>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <img src="Images/Aavaaz.jpeg" alt="Mentor">
+                            <p>"Great collaborator! His deep learning contributions were crucial to our
+                                success."</p>
+                            <h4>Aavaaz Inc.</h4>
+                            <span>Aavaaz Inc.</span>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <img src="Images/suraj resume pic.jpg" alt="Mentor">
+                            <p>"Good teammate, very clear with the work delivarables and most importantly he
+                                does his
+                                job really well."</p>
+                            <h4>Suraj Kumar Singh</h4>
+                            <span>AI/ML Engineer, Aavaaz Inc.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <img src="Images/iit ism.jpeg" alt="Mentor">
+                            <p>"During his stay working as Winter Research Intern at IIT(ISM) Dhanbad we
+                                found him
+                                hardworking, sincere and honest."</p>
+                            <h4>Dean (Research & Development)</h4>
+                            <span>Indian Institute of Technology (Indian School of Mines) Dhanbad</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <img src="Images/BHU-Logo-.jpg" alt="Mentor">
+                            <p>"In acknowledgement of his outstanding professional skill, leadership, and
+                                tireless
+                                efforts, resulting in significant contributions to the effectiveness and
+                                success of our
+                                placement initiatives. His dedication and communication have been integral
+                                to ensuring
+                                the success of our programs. We at the Dept. of Computer Science, Banaras
+                                Hindu
+                                University, take this oppurtunity to celebrate our assosiation with him."
+                            </p>
+                            <h4>Training and Placement Cell</h4>
+                            <span>Banaras Hindu University, Varanasi</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigation and pagination -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+        <section id="contact">
+            <h1>Contact Me</h1>
+
+
+        </section>
+
+        <footer>
+            <p>© 2025 My Portfolio. All rights reserved.</p>
+        </footer>
+    </body>
+
+
+
+    </section>
+
+
+
+
+
+
+    <!-- contact section start here -->
+    <section class="contact" id="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="contact-content">
+                <div class="message">
+                    <form action="https://formsubmit.co/aditya.240201001@iiitbh.ac.in" method="POST">
+                        <input type="hidden" name="_captcha" value="false">
+
+                        <h3 class="heading">Send Message us</h3>
+                        <div class="line"></div>
+                        <div class="field">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="field">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="field">
+                            <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="field">
+                            <textarea name="message" cols="30" rows="10" placeholder="Message" required></textarea>
+                        </div>
+
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+
+                <!--                <!-- ✅ Add this here -->
+                <!-- Contact Info -->
+                <div class="gettouch">
+                    <h3 class="heading">Get in Touch</h3>
+                    <div class="line"></div>
+                    <p>If you have any project, internship opportunity, or just want to connect — feel free to reach
+                        out to me through any of the methods below.</p>
+
+                    <div class="info"><i class="fa fa-map-marker"></i> Bhagalpur, Bihar, 812001</div>
+                    <div class="info"><i class="fa fa-phone"></i> 7858826847</div>
+                    <div class="info"><i class="fa fa-envelope"></i> aditya.240201001@iiitbh.ac.in</div>
+
+                    <!-- Social Icons -->
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/i_am_aditya1o1/" target="_blank" class="social-btn instagram"
+                            title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/aditya-kumar-pandey-814169252/" target="_blank"
+                            class="social-btn linkedin" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@adityapandeyvlogsofficial" target="_blank"
+                            class="social-btn youtube" title="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://github.com/Aditya1O1" target="_blank" class="social-btn github" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://bento.me/adityapandey1o1" target="_blank" class="social-btn website"
+                            title="Website">
+                            <i class="fas fa-globe"></i>
+                        </a>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <p>© Copyright Portfolio. All Rights Reserved</p>
+            <p>Designed by <a href="https://www.linkedin.com/in/aditya-kumar-pandey-814169252/">Aditya Pandey</p>
+        </footer>
+    </section>
+
+    <script src="main.js"></script>
+
+    <!-- Visitor Counter Section -->
+    <footer id="visitor-section" class="visitor-counter">
+        <p>Total Visitors: <span id="visitor-count">0</span></p>
+    </footer>
+
+    <!-- ✅ Place your JavaScript code here -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Typed.js effect
+            var typed = new Typed(".text", {
+                strings: ["AI/ML Engineer", "Data Analyst", "Data Scientist", "NLP Specialist"],
+                typeSpeed: 95,
+                backSpeed: 100,
+                backDelay: 1000,
+                loop: true
+            });
+
+            // Sticky Navbar & Scroll-to-Top Button
+            window.onscroll = function () {
+                var navbar = document.getElementById("navbar");
+                let button = document.getElementById("btn");
+
+                if (window.scrollY > 55) {
+                    navbar.classList.add("sticky");
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+
+                if (document.documentElement.scrollTop > 90) {
+                    button.style.display = "block";
+                } else {
+                    button.style.display = "none";
+                }
+            };
+
+            // Scroll to Top Function
+            window.scrolltoTop = function () {
+                document.documentElement.scrollTop = 0;
+            }
+
+            // Menu Toggle Bar
+            window.menu = function () {
+                let menu = document.getElementById("menu");
+                let menubar = document.querySelector(".menu-btn i");
+
+                menu.classList.toggle("active");
+                menubar.classList.toggle("active");
+            }
+
+            // ✅ Real-time visitor counter using Abacus API
+            fetch('https://abacus.jasoncameron.dev/hit/adityapandeyportfolio/homepage')
+                .then(res => res.json())
+                .then(data => {
+                    document.getElementById('visitor-count').textContent = data.value;
+                })
+                .catch(err => console.error("Visitor counter failed:", err));
+        });
+    </script>
+
+
+
+
+
+    <div id="map-container" style="width: 100%; height: 400px; margin-top: 50px;">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.901153369441!2d90.3886451149816!3d23.750885684590137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c767f1e2e0eb%3A0x1bfa2e110d4eae33!2sDhaka%2C%20Bangladesh!5e0!3m2!1sen!2sbd!4v1633759074896!5m2!1sen!2sbd"
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </div>
+
+    <script>
+        window.addEventListener("scroll", function () {
+            let navbar = document.querySelector(".navbar");
+
+            if (window.scrollY > 50) {
+                navbar.classList.add("sticky");
+                navbar.classList.add("dark-text"); // Change text color when scrolling
+            } else {
+                navbar.classList.remove("sticky");
+                navbar.classList.remove("dark-text"); // Revert to original color
+            }
+        });
+    </script>
+
+    <script>
+        // Intersection Observer to apply animation only to buttons
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-bulge');
+                    // Remove class after animation completes so it can re-trigger
+                    setTimeout(() => {
+                        entry.target.classList.remove('animate-bulge');
+                    }, 700);
+                }
+            });
+        }, {
+            threshold: 0.6
+        });
+
+        document.querySelectorAll('.btn-certificate').forEach(btn => {
+            observer.observe(btn);
+        });
+    </script>
+
+    <!-- ✅ Swiper JS (Testimonial Carousel) -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper(".swiper", {
+            loop: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            }
+        });
+    </script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card, .project, .edu-card, .internship-card"), {
+            max: 15,
+            speed: 400,
+            glare: true,
+            "max-glare": 0.3
+        });
+    </script>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

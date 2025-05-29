@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Data Analytics Projects</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 2rem;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .projects-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .project {
+      background-color: #fff;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      transition: transform 0.3s ease;
+      text-align: center;
+    }
+
+    .project:hover {
+      transform: scale(1.05);
+    }
+
+    .project img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .project h3 {
+      margin-bottom: 10px;
+      color: #007bff;
+      font-size: 1.2rem;
+    }
+
+    .project p {
+      margin-bottom: 10px;
+      font-size: 0.95rem;
+    }
+
+    .tech-used {
+      margin-bottom: 12px;
+    }
+
+    .tech-used span {
+      background-color: #e0e0e0;
+      color: #333;
+      font-size: 12px;
+      padding: 4px 10px;
+      border-radius: 20px;
+      margin: 2px;
+      display: inline-block;
+    }
+
+    .project a {
+      display: inline-block;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      padding: 8px 14px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      font-weight: bold;
+      font-size: 0.9rem;
+    }
+
+    .project a:hover {
+      background-color: #0056b3;
+    }
+
+    .back-to-home {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #28a745;
+      color: white;
+      padding: 12px 18px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      z-index: 999;
+    }
+
+    .back-to-home:hover {
+      transform: scale(1.1);
+      background-color: #218838;
+    }
+
+    @media (max-width: 600px) {
+      .project {
+        width: 100%;
+      }
+
+      .back-to-home {
+        padding: 10px 15px;
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Data Analytics Projects</h1>
+
+  <section class="projects-container">
+
+    <!-- 🔵 Project 1 -->
+    <div class="project">
+      <img src="Images/Myntra.jpeg" alt="Myntra Sales Analysis">
+      <h3>Myntra Sales Analysis</h3>
+      <p>
+        Developed an interactive dashboard in <strong>Power BI</strong> to analyze Myntra’s sales data from 2021–2023.
+        The project visualizes key performance indicators across product categories, timeframes, regions, and brands.
+      </p>
+      <ul>
+        <li>Men’s sales rank dropped from 1st to 2nd.</li>
+        <li>Highest sales on Fridays in Men’s category.</li>
+        <li>Top cities: Ahmedabad and Bengaluru.</li>
+        <li>Focus: Jeans, T-Shirts, Kurtis, Shoes.</li>
+      </ul>
+      <div class="tech-used">
+        <span>Power BI</span><span>Excel</span><span>Data Cleaning</span><span>Retail Analytics</span>
+      </div>
+      <a href="https://github.com/Aditya1O1/myntra-sales-analysis-power-bi" target="_blank">View on GitHub</a>
+    </div>
+
+    <!-- 🔵 Project 2 -->
+    <div class="project">
+      <img src="Images/Upfront Pricing Analysis Report_page-0001.jpg" alt="Upfront Pricing Analysis">
+      <h3>Upfront Pricing Analysis</h3>
+      <p>
+        Conducted analysis on ride-hailing price mismatches between upfront estimates and final fares using Python.
+        Explored how route/time changes impact final cost and proposed data-driven solutions.
+      </p>
+      <ul>
+        <li>Explored variations in distance/time/route.</li>
+        <li>Identified root causes of fare mismatches.</li>
+        <li>Suggested improvements to pricing transparency.</li>
+      </ul>
+      <div class="tech-used">
+        <span>Python</span><span>Pandas</span><span>Matplotlib</span><span>Seaborn</span>
+      </div>
+      <a href="https://github.com/Aditya1O1/Upfront-Pricing-Analysis" target="_blank">View on GitHub</a>
+    </div>
+
+    <!-- 🔵 Project 3 -->
+    <div class="project">
+      <img src="Images/Diwali Sales Analysis python.webp" alt="Diwali Sales Analysis">
+      <h3>Diwali Sales Analysis</h3>
+      <p>
+        Conducted an EDA on Diwali consumer purchases using real-world retail data. Delivered insights on buying
+        patterns,
+        demographics, and product category behavior for better seasonal targeting.
+      </p>
+      <ul>
+        <li>Identified top demographics and states.</li>
+        <li>Sales trends across gender, age & occupation.</li>
+        <li>Suggested data-driven campaign strategies.</li>
+      </ul>
+      <div class="tech-used">
+        <span>Python</span><span>Pandas</span><span>Matplotlib</span><span>Seaborn</span>
+      </div>
+      <a href="https://github.com/Aditya1O1/Diwali-Sales-Analysis/tree/main" target="_blank">View on GitHub</a>
+    </div>
+
+    <!-- 🔵 Project 4 -->
+    <div class="project">
+      <img src="Images/CRIME DATA.jpg" alt="Crime Data Analysis using R">
+      <h3>Crime Data Analysis using R</h3>
+      <p>
+        Analyzed crime trends in Greater Manchester using R. Used bar charts, heatmaps, and time-based visualizations
+        to uncover hotspots and category-specific risks.
+      </p>
+      <ul>
+        <li>Top boroughs visualized with bar graphs.</li>
+        <li>Crime patterns by month and location.</li>
+        <li>Multi-line trend analysis by city.</li>
+      </ul>
+      <div class="tech-used">
+        <span>R</span><span>ggplot2</span><span>dplyr</span><span>lubridate</span>
+      </div>
+      <a href="https://github.com/Aditya1O1/Crime-Data-Visualization-using-R" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project">
+      <img src="Images/Retail_Analytics.jpg" alt="EDA and Customer Segmentation">
+      <h3>Retail Data Analysis & Customer Segmentation</h3>
+      <p>
+        Performed end-to-end analysis on retail transaction data including <strong>Exploratory Data Analysis
+          (EDA)</strong>
+        and <strong>Customer Segmentation</strong>. The goal was to uncover customer behavior, product performance, and
+        purchasing trends for better business decisions.
+      </p>
+
+      <ul>
+        <li>Conducted EDA using merged datasets of <strong>transactions, customers, and products</strong>.</li>
+        <li>Visualized <strong>monthly sales trends</strong>, <strong>regional distribution</strong>, and top-performing
+          categories.</li>
+        <li>Identified peak months (March & August) and major revenue drivers (Electronics, Clothing).</li>
+        <li>Segmented customers using <strong>K-Means clustering</strong> into low, moderate, and high spenders.</li>
+        <li>Evaluated segmentation using <strong>Silhouette Score: 0.59</strong> and <strong>DB Index: 1.37</strong>.
+        </li>
+        <li>Supported <strong>personalized marketing strategies</strong> using behavioral clusters.</li>
+      </ul>
+
+      <div class="tech-used">
+        <span>Python</span>
+        <span>Pandas</span>
+        <span>Seaborn</span>
+        <span>scikit-learn</span>
+        <span>Matplotlib</span>
+      </div>
+      <a href="https://github.com/Aditya1O1/Zeotap_DataScience_Assignment/tree/main" target="_blank">View on GitHub</a>
+    </div>
+
+
+
+    <!-- 🟢 Floating Back to Home Button -->
+    <a href="index.html" class="back-to-home">← Back to Home</a>
+
+</body>
+
+</html>

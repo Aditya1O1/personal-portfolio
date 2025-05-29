@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gen AI Projects</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 2rem;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .projects-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .project {
+      background-color: #fff;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      transition: transform 0.3s ease;
+      text-align: center;
+    }
+
+    .project:hover {
+      transform: scale(1.05);
+    }
+
+    .project img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .project h3 {
+      margin-bottom: 10px;
+      color: #007bff;
+      font-size: 1.2rem;
+    }
+
+    .project p {
+      margin-bottom: 10px;
+      font-size: 0.95rem;
+    }
+
+    .tech-used {
+      margin-bottom: 12px;
+    }
+
+    .tech-used span {
+      background-color: #e0e0e0;
+      color: #333;
+      font-size: 12px;
+      padding: 4px 10px;
+      border-radius: 20px;
+      margin: 2px;
+      display: inline-block;
+    }
+
+    .project a {
+      display: inline-block;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      padding: 8px 14px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      font-weight: bold;
+      font-size: 0.9rem;
+    }
+
+    .project a:hover {
+      background-color: #0056b3;
+    }
+
+    .back-to-home {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #28a745;
+      color: white;
+      padding: 12px 18px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      z-index: 999;
+    }
+
+    .back-to-home:hover {
+      transform: scale(1.1);
+      background-color: #218838;
+    }
+
+    @media (max-width: 600px) {
+      .project {
+        width: 100%;
+      }
+
+      .back-to-home {
+        padding: 10px 15px;
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Gen AI Projects</h1>
+
+  <section class="projects-container">
+
+    <!-- 🔵 Project 3 -->
+    <div class="project">
+      <img src="Images/Anime-Image-Generation-Using-DCGANs.webp" alt="Anime Image Generation using GANs">
+      <h3>Anime Image Generation using GANs</h3>
+      <p>
+        Leveraged <strong>Generative Adversarial Networks (GANs)</strong> to generate high-quality, anime-style images
+        by training on extensive anime character datasets.
+        The GAN architecture was tuned to synthesize visually compelling characters with artistic and realistic
+        features.
+      </p>
+      <ul>
+        <li>Trained generator and discriminator networks to autonomously create anime characters with vibrant styles.
+        </li>
+        <li>Enhanced image quality and visual coherence through progressive training and loss function optimization.
+        </li>
+        <li>Experimented with different GAN variants to fine-tune style and resolution of generated outputs.</li>
+        <li>Contributed to advancements in creative AI applications for digital art and entertainment industries.</li>
+      </ul>
+      <div class="tech-used">
+        <span>Python</span><span>TensorFlow</span><span>GAN</span><span>DCGAN</span>
+        <span>Image Generation</span><span>Deep Learning</span>
+      </div>
+      <a href="https://github.com/Aditya1O1/Anime-Image-Generation-Using-GANs" target="_blank">View on GitHub</a>
+    </div>
+
+    <!-- 🔵 Project 4 -->
+    <div class="project">
+      <img src="Images/human emotion.png" alt="Human Emotion Classification">
+      <h3>Human Emotion Classification using ML and Deep Learning</h3>
+      <p>
+        Led an exploratory project focused on classifying human emotions through <strong>Machine Learning</strong> and
+        <strong>Deep Learning</strong> techniques.
+        Designed and implemented emotion recognition models to interpret and classify a wide range of human feelings
+        from textual and visual data.
+      </p>
+      <ul>
+        <li>Built emotion classifiers from scratch using traditional ML algorithms and advanced deep learning
+          architectures.</li>
+        <li>Applied <strong>sentiment analysis</strong> and <strong>text classification</strong> to uncover emotional
+          cues in user-generated content.</li>
+        <li>Experimented with diverse feature extraction methods to improve accuracy and interpretability.</li>
+        <li>Offered critical insights into the relationship between emotion and artificial intelligence for empathetic
+          computing.</li>
+      </ul>
+      <div class="tech-used">
+        <span>Python</span><span>scikit-learn</span><span>TensorFlow</span>
+        <span>Sentiment Analysis</span><span>Deep Learning</span><span>Text Classification</span>
+      </div>
+      <a href="https://github.com/Aditya1O1/Human-Emotion-Classification-Using-Machine-Learning-and-Deep-Learning"
+        target="_blank">View on GitHub</a>
+    </div>
+
+    <!-- 🔵 Project 5 -->
+    <div class="project">
+      <img src="Images/Amazon-Product-Reviews-Sentiment-Analysis.webp" alt="Amazon Customer Reviews Sentiment Analysis">
+      <h3>Amazon Customer Reviews Sentiment Analysis</h3>
+      <p>
+        Built a sentiment analysis classifier for Amazon customer reviews using two distinct <strong>NLP
+          approaches</strong>:
+        <strong>VADER (NLTK)</strong> and <strong>RoBERTa (Transformers by Hugging Face)</strong>.
+        The project aimed to evaluate and compare the effectiveness of rule-based and deep learning-based models on
+        real-world textual data.
+      </p>
+      <ul>
+        <li>Processed thousands of customer reviews using <strong>text preprocessing</strong> and
+          <strong>tokenization</strong> pipelines.</li>
+        <li>Implemented <strong>VADER</strong> for quick lexicon-based sentiment scoring.</li>
+        <li>Fine-tuned <strong>RoBERTa</strong> transformer for high-accuracy deep learning classification.</li>
+        <li>Compared model performance across precision, recall, and F1-score metrics to determine robustness.</li>
+      </ul>
+      <div class="tech-used">
+        <span>Python</span><span>NLTK</span><span>VADER</span>
+        <span>Transformers</span><span>RoBERTa</span>
+        <span>Hugging Face</span><span>Sentiment Analysis</span><span>NLP</span>
+      </div>
+      <a href="https://github.com/Aditya1O1/AmazonCustomerReviews?tab=readme-ov-file#amazoncustomerreviews"
+        target="_blank">View on GitHub</a>
+    </div>
+
+
+
+  </section>
+
+  <!-- 🟢 Floating Back to Home Button -->
+  <a href="index.html" class="back-to-home">← Back to Home</a>
+
+</body>
+
+</html>
