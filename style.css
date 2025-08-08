@@ -322,6 +322,53 @@ body {
 }
 
 
+/* Profile Name Styling */
+.profile-name {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+/* Profile Role Styling */
+.profile-role {
+    font-size: 1.1rem;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+/* Tagline Styling */
+.tagline {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #444;
+    margin: 10px 0 15px;
+    line-height: 1.4;
+}
+
+.tagline .highlight {
+    color: #007BFF; /* Professional blue */
+}
+
+/* Email & Phone Links */
+.name p a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: 500;
+}
+
+.name p a:hover {
+    text-decoration: underline;
+}
+
+/* Profile Image Styling */
+.personal .photo img {
+    max-width: 160px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
 /* ⭐ Refined Skill Section (Responsive Grid Layout) */
 .skills-grid-new {
     display: flex;
