@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deep Learning Projects</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 2rem;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .projects-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .project {
+      background-color: #fff;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      transition: transform 0.3s ease;
+      text-align: center;
+    }
+
+    .project:hover {
+      transform: scale(1.05);
+    }
+
+    .project img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .project h3 {
+      margin-bottom: 10px;
+      color: #007bff;
+      font-size: 1.2rem;
+    }
+
+    .project p {
+      margin-bottom: 10px;
+      font-size: 0.95rem;
+    }
+
+    .tech-used {
+      margin-bottom: 12px;
+    }
+
+    .tech-used span {
+      background-color: #e0e0e0;
+      color: #333;
+      font-size: 12px;
+      padding: 4px 10px;
+      border-radius: 20px;
+      margin: 2px;
+      display: inline-block;
+    }
+
+    .project a {
+      display: inline-block;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      padding: 8px 14px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      font-weight: bold;
+      font-size: 0.9rem;
+    }
+
+    .project a:hover {
+      background-color: #0056b3;
+    }
+
+    .back-to-home {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #28a745;
+      color: white;
+      padding: 12px 18px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      z-index: 999;
+    }
+
+    .back-to-home:hover {
+      transform: scale(1.1);
+      background-color: #218838;
+    }
+
+    @media (max-width: 600px) {
+      .project {
+        width: 100%;
+      }
+
+      .back-to-home {
+        padding: 10px 15px;
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Real-World Challenges – Industry
+    Assignments</h1>
+
+  <section class="projects-container">
+    <!-- 🔵 Zeotap Assignment -->
+    <div class="project">
+      <img src="Images/Zeotap.webp" alt="Zeotap Retail Analysis">
+      <h3>Zeotap – Retail Data Analysis & Customer Segmentation</h3>
+      <p>
+        This assignment involved analyzing an eCommerce Transactions Dataset from Zeotap, consisting of customer,
+        product, and transaction data. Performed end-to-end analytics including <strong>EDA</strong> and
+        <strong>K-Means-based Customer Segmentation</strong> to uncover behavioral insights and product trends.
+      </p>
+      <ul>
+        <li>📊 Conducted EDA on merged transaction, customer, and product datasets.</li>
+        <li>📈 Visualized monthly trends, top categories, and regional sales distribution.</li>
+        <li>🚀 Identified peak sales months: <strong>March & August</strong>; top categories: <strong>Electronics,
+            Clothing</strong>.</li>
+        <li>🔍 Segmented customers into <strong>low, moderate, and high spenders</strong> using K-Means.</li>
+        <li>📐 Evaluated clusters using <strong>Silhouette Score: 0.59</strong> and <strong>DB Index: 1.37</strong>.
+        </li>
+        <li>🎯 Enabled targeted marketing strategies using behavioral clustering.</li>
+      </ul>
+      <div class="tech-used">
+        <span>Python</span><span>Pandas</span><span>Matplotlib</span>
+        <span>Seaborn</span><span>K-Means</span><span>EDA</span>
+        <span>Customer Segmentation</span>
+      </div>
+      <a href="https://github.com/Aditya1O1/Zeotap_DataScience_Assignment" target="_blank">View on GitHub</a>
+    </div>
+
+
+
+
+
+    <!-- 🟢 IIM Bangalore Assignment -->
+    <div class="project">
+      <img src="Images/iim b.webp" alt="Upfront Pricing Analysis">
+      <h3>IIM Bangalore – Upfront Pricing Analysis</h3>
+      <p>
+        This project, part of an IIM Bangalore industry case study, investigates discrepancies between upfront fare
+        estimates and actual ride costs in a ride-hailing service. Analyzed ride-level data to identify reasons for
+        pricing deviation and propose actionable improvements.
+      </p>
+      <ul>
+        <li>📉 Built an end-to-end analysis pipeline using <strong>Python, Pandas, NumPy, Matplotlib</strong>, and
+          <strong>Seaborn</strong>.
+        </li>
+        <li>🚗 Found that <strong>31.62%</strong> of rides had >20% deviation between upfront and actual price.</li>
+        <li>📌 Identified key factors: poor GPS confidence, route/destination changes, and long trip durations.</li>
+        <li>📊 Used <strong>correlation matrices</strong> and visuals to isolate deviation root causes.</li>
+        <li>⚙️ Suggested solutions: real-time GPS tracking, ML-based pricing prediction, and route sensitivity
+          adjustments.</li>
+      </ul>
+      <div class="tech-used">
+        <span>Python</span><span>Pandas</span><span>NumPy</span>
+        <span>Matplotlib</span><span>Seaborn</span><span>EDA</span>
+        <span>Correlation Analysis</span><span>Data Pipeline</span>
+      </div>
+      <a href="https://github.com/Aditya1O1/Upfront-Pricing-Analysis" target="_blank">View on GitHub</a>
+    </div>
+
+
+    <!-- 🟣 IAI Solutions Assignment -->
+    <div class="project">
+      <img src="Images/IAI.jpeg" alt="Invoice Reimbursement System">
+      <h3>IAI Solutions – Invoice Reimbursement System (RAG-based Chatbot)</h3>
+      <p>
+        Developed a <strong>full-stack RAG-powered chatbot</strong> to analyze invoices against policy documents and
+        answer reimbursement queries using <strong>LLMs, ChromaDB, and FastAPI</strong>. Integrated semantic search,
+        parallel processing, and conversational intelligence for accurate policy compliance insights.
+      </p>
+      <ul>
+        <li>📄 Parsed policy and invoice PDFs using <strong>PyMuPDF</strong>, analyzed invoice-policy alignment via
+          <strong>Gemini Flash</strong>.
+        </li>
+        <li>⚡ Accelerated batch processing using <strong>threading</strong> for handling multiple invoices.</li>
+        <li>🔎 Embedded invoice content via <strong>SentenceTransformers</strong> & stored in <strong>ChromaDB</strong>
+          for semantic search.</li>
+        <li>🤖 Built a <strong>local RAG pipeline</strong> using <strong>Flan-T5</strong> and <strong>Mistral
+            7B</strong> to generate context-aware answers.</li>
+        <li>🛰️ Deployed APIs using <strong>FastAPI</strong> and exposed them via <strong>pyngrok</strong> for real-time
+          testing.</li>
+        <li>✅ Example: “Why was Rahul's cab reimbursement partially rejected?” → Contextual response: It exceeded ₹600
+          policy limit (submitted: ₹1200).</li>
+      </ul>
+      <div class="tech-used">
+        <span>Python</span><span>FastAPI</span><span>ChromaDB</span>
+        <span>SentenceTransformers</span><span>Flan-T5</span><span>Mistral 7B</span>
+        <span>Gemini Flash</span><span>RAG</span><span>LLM</span><span>PDF Parsing</span>
+        <span>Multithreading</span><span>Semantic Search</span><span>REST API</span>
+      </div>
+      <a href="https://github.com/Aditya1O1/Invoice-Reimbursement-System" target="_blank">View on GitHub</a>
+    </div>
+
+    <!-- 🟢 Enshrine Technologies Assignment -->
+    <div class="project">
+      <img src="Images/Enshrine.webp" alt="Multi-Agent AI System">
+      <h3>Enshrine Technologies – Multi-Agent AI System using Google ADK</h3>
+      <p>
+        Developed a <strong>multi-agent AI system</strong> that interprets natural language goals and executes
+        chained tasks using <strong>Google ADK, FastAPI, and external APIs</strong>. Designed intelligent agents
+        for planning, retrieval, evaluation, and summarization of real-world objectives.
+      </p>
+      <ul>
+        <li>🧠 Built <strong>Planner Agent</strong> to parse user goals and generate stepwise execution plans.</li>
+        <li>🔍 Developed <strong>Retrieval Agent</strong> using <strong>CoinGecko, SpaceX, and NewsAPI</strong>
+          to fetch real-time data.</li>
+        <li>⛅ Integrated <strong>Weather Agent</strong> to pull forecasts via <strong>OpenWeatherMap</strong>.</li>
+        <li>📝 Implemented <strong>Evaluation Agent</strong> to assess risks (e.g., delays) and summarize outcomes.</li>
+        <li>📡 Exposed FastAPI endpoints via <strong>Ngrok</strong> for seamless deployment on Google Colab.</li>
+        <li>✅ Example: “Get SpaceX launch details and weather” → Output includes launch site, date, and risk analysis.
+        </li>
+      </ul>
+      <div class="tech-used">
+        <span>Python</span><span>FastAPI</span><span>Google ADK</span>
+        <span>Ngrok</span><span>API Integration</span><span>Multi-Agent</span>
+        <span>OpenWeatherMap</span><span>CoinGecko</span><span>SpaceX API</span>
+        <span>NewsAPI</span><span>Task Planning</span><span>Automation</span>
+      </div>
+      <a href="https://github.com/Aditya1O1/-Enshrine-Global-Systems---Multi-Agent-AI-System-project-implemented-using-FastAPI-and-Google-ADK"
+        target="_blank">View on GitHub</a>
+    </div>
+
+    <!-- 🟠 Zocket Assignment -->
+    <div class="project">
+      <img src="Images/Zocket.webp" alt="RAG Agent for Marketing Query Research">
+      <h3>Zocket – RAG Agent for Marketing Query Research</h3>
+      <p>
+        Built a <strong>lightweight RAG-based AI agent</strong> to assist marketing teams by answering campaign-related
+        queries using marketing blog data. Exposed as a <strong>FastAPI REST endpoint</strong> for seamless Zocket
+        integration.
+      </p>
+      <ul>
+        <li>🧠 Used <strong>SentenceTransformers</strong> for semantic embedding of queries and blog chunks.</li>
+        <li>📚 Retrieved context using <strong>ChromaDB (PersistentClient)</strong> with metadata filtering.</li>
+        <li>🗣️ Generated actionable responses using <strong>TinyLLaMA-1.1B-Chat-v1.0</strong> for fast, coherent
+          output.</li>
+        <li>🚀 Deployed API via <strong>FastAPI</strong> and securely exposed using <strong>Ngrok</strong> on Colab.
+        </li>
+        <li>⚙️ Overcame VRAM issues, ChromaDB deprecations, and unstable endpoints via optimized configuration.</li>
+        <li>✅ Example: “How can I increase engagement for video ads on Instagram?” → Structured, insightful answer
+          generated using blog knowledge.</li>
+      </ul>
+      <div class="tech-used">
+        <span>Python</span><span>FastAPI</span><span>TinyLLaMA</span>
+        <span>ChromaDB</span><span>Ngrok</span><span>SentenceTransformers</span>
+        <span>Semantic Search</span><span>RAG</span><span>Vector DB</span>
+        <span>Marketing AI</span><span>LLM</span><span>REST API</span>
+      </div>
+      <a href="https://github.com/Aditya1O1/RAG-Agent-for-Marketing-Query-Research" target="_blank">View on GitHub</a>
+    </div>
+
+    <!-- 🟣 Zeru Assignment -->
+    <div class="project">
+      <img src="Images/Zeru.jpeg" alt="Aave Credit Scoring for DeFi Wallets">
+      <h3>Zeru Assignment – Aave Credit Scoring System</h3>
+      <p>
+        Developed a <strong>credit scoring framework</strong> for Aave V2 users by analyzing 100K DeFi wallet
+        transaction records.
+        Implemented both <strong>rule-based scoring</strong> and <strong>unsupervised ML clustering</strong> to assess
+        wallet reliability.
+      </p>
+      <ul>
+        <li>📊 Engineered wallet-level features like transaction types, USD volumes, activity ratios, and liquidation
+          history using <strong>Pandas</strong> and <strong>NumPy</strong>.</li>
+        <li>🤖 Applied <strong>KMeans clustering</strong> on normalized features to assign credit scores between
+          <strong>200–1000</strong>.
+        </li>
+        <li>🧠 Captured user behavior patterns like borrowing frequency, repayment behavior, and protocol usage
+          diversity.</li>
+        <li>📁 Exported final scoring results as CSV and provided interpretability via visual summaries.</li>
+        <li>🔮 Suggested future improvements including anomaly detection, real-time scoring APIs, and on-chain dashboard
+          integration.</li>
+        <li>✅ Example: Wallet with consistent repayments, no liquidations, and diverse protocol use → high credit score
+          (900+).</li>
+      </ul>
+      <div class="tech-used">
+        <span>Python</span><span>Pandas</span><span>NumPy</span>
+        <span>Scikit-learn</span><span>Clustering</span><span>Unsupervised ML</span>
+        <span>DeFi</span><span>Aave</span><span>Feature Engineering</span>
+        <span>Data Analysis</span><span>Credit Scoring</span>
+      </div>
+      <a href="https://github.com/Aditya1O1/Zeru_aave_credit_scoring" target="_blank">View on GitHub</a>
+    </div>
+
+    <!-- 🟣 Zeru Assignment -->
+    <div class="project">
+      <img src="Images/Zeru.jpeg" alt="Wallet Risk Scoring Using Compound V2">
+      <h3>Zeru – Wallet Risk Scoring From Scratch (Compound V2)</h3>
+      <p>
+        Built a <strong>rule-based DeFi wallet risk scoring system</strong> by analyzing borrow and repay behavior on
+        the Compound V2 protocol.
+        Assigned wallet-level scores (0–1000) based on <strong>on-chain activity and repayment discipline</strong> using
+        data fetched from Covalent API.
+      </p>
+      <ul>
+        <li>🧾 Loaded 100 Ethereum wallet addresses from Excel and fetched <strong>Compound V2 events (borrow,
+            repay)</strong> via Covalent API.</li>
+        <li>🔍 Engineered features like net borrow, repay ratio, transaction frequency, and activity span using
+          <strong>pandas</strong>.
+        </li>
+        <li>📊 Scaled features using MinMax and computed a <strong>rule-based risk score</strong> rewarding repayment
+          and penalizing high debt.</li>
+        <li>📁 Generated <strong>wallet_risk_scores.csv</strong> with normalized scores for DeFi credit risk assessment.
+        </li>
+        <li>⚙️ Modular pipeline includes Excel import, Covalent data pull, feature generation, scoring, and result
+          export.</li>
+        <li>✅ Example: Wallets with high borrowing, missed repayments, and recent concentrated activity → higher risk
+          scores (~800–1000).</li>
+      </ul>
+      <div class="tech-used">
+        <span>Python</span><span>Pandas</span><span>NumPy</span>
+        <span>Covalent API</span><span>Excel</span><span>Rule-based Scoring</span>
+        <span>Compound V2</span><span>On-chain Analytics</span><span>DeFi Risk</span>
+        <span>Credit Scoring</span><span>Feature Engineering</span>
+      </div>
+      <a href="https://github.com/Aditya1O1/Wallet-Risk-Scoring-From-Scratch-Compound-V2-V3-" target="_blank">View on
+        GitHub</a>
+    </div>
+
+    <!-- 🟢 Vindiata Consulting Assignment -->
+    <div class="project">
+      <img src="Images/Vindiate.webp" alt="ABC Gaming Loyalty Analytics – Vindiata Consulting Pvt. Ltd.">
+      <h3>ABC Gaming Loyalty Analytics – Vindiata Consulting Pvt. Ltd.</h3>
+      <p>
+        Built a <strong>loyalty analytics engine</strong> to evaluate player performance on the ABC Gaming platform
+        using a custom point-based system.
+        Analyzed slot-wise and monthly trends, ranked users, and distributed performance-based bonuses from a ₹50,000
+        pool.
+      </p>
+      <ul>
+        <li>📊 Applied a weighted formula using <strong>deposits, withdrawals, and gameplay</strong> for loyalty
+          calculation.</li>
+        <li>🏆 Generated <strong>leaderboards</strong> for different time slots and the full month of October.</li>
+        <li>💸 Designed a <strong>proportional bonus allocation algorithm</strong> for the top 50 players based on
+          loyalty points.</li>
+        <li>🧠 Proposed <strong>formula improvements</strong> (e.g., reduce deposit bias, introduce gameplay
+          multipliers, add loyalty tiers).</li>
+        <li>📈 Delivered actionable insights on <strong>user engagement</strong>, deposit behavior, and game activity
+          trends.</li>
+        <li>✅ Example: User 634 scored over 61,000 loyalty points and received the highest bonus share (~₹7240).</li>
+      </ul>
+      <div class="tech-used">
+        <span>Python</span><span>Pandas</span><span>Data Analysis</span>
+        <span>Loyalty Scoring</span><span>Bonus Distribution</span><span>Leaderboard</span>
+        <span>Business Analytics</span><span>Gaming</span><span>Statistical Insights</span>
+      </div>
+      <a href="https://github.com/Aditya1O1/ABC-Gaming-Loyalty-Analytics-Vindiata-Consulting-Pvt.-Ltd./tree/main"
+        target="_blank">View on GitHub</a>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </section>
+
+  <!-- 🟢 Floating Back to Home Button -->
+  <a href="index.html" class="back-to-home">← Back to Home</a>
+
+</body>
+
+</html>

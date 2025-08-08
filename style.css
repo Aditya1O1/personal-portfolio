@@ -141,6 +141,53 @@ body {
     width: 35px;
 }
 
+/* Resume Dropdown */
+.resume-dropdown {
+    position: relative;
+}
+
+.resume-dropdown .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #222; /* Dark background for contrast */
+    min-width: 180px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    z-index: 999;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 6px; /* Rounded corners */
+    overflow: hidden; /* Smooth edges */
+}
+
+.resume-dropdown .dropdown-menu li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.resume-dropdown .dropdown-menu li:last-child {
+    border-bottom: none;
+}
+
+.resume-dropdown .dropdown-menu li a {
+    display: block;
+    padding: 10px 14px;
+    color: #f1f1f1; /* Light text for visibility */
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.resume-dropdown .dropdown-menu li a:hover {
+    background-color: #333; /* Slightly lighter on hover */
+    color: #fff;
+    transition: background-color 0.2s ease;
+}
+
+/* Show dropdown on hover */
+.resume-dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
 /* Default navbar text color */
 .navbar .menu li a,
 .navbar .logo a {
@@ -214,7 +261,7 @@ body {
 
 /* 🏞️ Parallax Section */
 .parallax-section {
-    background-image: url('Images/Bird\ 2.jpg');
+    background-image: url('Images/hOSTEL.jpg');
     /* replace with your own image path */
     min-height: 400px;
     background-attachment: fixed;
@@ -800,7 +847,7 @@ body {
 
 /* 🌌 Parallax Background for Education */
 .parallax-education-section {
-    background-image: url('Images/RIVER\ 2.jpg');
+    background-image: url('Images/aCAD\ BLOCK\ DAYPIC.jpg');
     /* 🖼 Replace with your image */
     min-height: 600px;
     background-attachment: fixed;
